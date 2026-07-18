@@ -1,0 +1,37 @@
+# venv / env
+.venv/
+venv/
+env/
+
+# python runtime
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# numba compile cache
+*.nbi
+*.nbc
+
+# models (auto-downloaded, live on D:\)
+*.ckpt
+*.onnx
+*.pth
+*.safetensors
+
+# audio in/out artifacts
+*.mp3
+*.mp4
+*.wav
+*.flac
+*.m4a
+
+# os / editor
+.DS_Store
+Thumbs.db
+
+# claude: ignore runtime, keep skills tracked
+.claude/*
+!.claude/skills/
