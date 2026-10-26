@@ -18,8 +18,8 @@ Convert an input (mp4/mp3/wav/...) to mp3, run BS-RoFormer separation, and expor
 Run the `separate_song` module with the project's unified venv:
 
 ```powershell
-& "C:\My_Files\my_programs\intrumental-lyric-separator\.venv\Scripts\python.exe" `
-  "C:\My_Files\my_programs\intrumental-lyric-separator\separate_song\cli.py" `
+& "M:\my_files\my_programs\track-prep\.venv\Scripts\python.exe" `
+  "M:\my_files\my_programs\track-prep\separate_song\cli.py" `
   "<input>" "<output folder>"
 ```
 

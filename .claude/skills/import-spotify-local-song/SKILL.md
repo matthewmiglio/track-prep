@@ -21,8 +21,8 @@ Run the `youtube_download` module with the project's unified venv, pointing `-o`
 at the fixed Spotify local-files folder:
 
 ```powershell
-& "C:\My_Files\my_programs\intrumental-lyric-separator\.venv\Scripts\python.exe" `
-  "C:\My_Files\my_programs\intrumental-lyric-separator\youtube_download\cli.py" `
+& "M:\my_files\my_programs\track-prep\.venv\Scripts\python.exe" `
+  "M:\my_files\my_programs\track-prep\youtube_download\cli.py" `
   -o "E:\my_files\my audio\spotify local songs" "<youtube url>"
 ```
 

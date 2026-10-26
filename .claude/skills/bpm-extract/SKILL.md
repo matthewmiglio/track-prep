@@ -18,8 +18,8 @@ cut mp3, and print a summary (total beats + detected BPM).
 Run the `bpm_inference` module with the project's unified venv:
 
 ```powershell
-& "C:\My_Files\my_programs\intrumental-lyric-separator\.venv\Scripts\python.exe" `
-  "C:\My_Files\my_programs\intrumental-lyric-separator\bpm_inference\cli.py" `
+& "M:\my_files\my_programs\track-prep\.venv\Scripts\python.exe" `
+  "M:\my_files\my_programs\track-prep\bpm_inference\cli.py" `
   "<input>" "<output folder>"
 ```
 

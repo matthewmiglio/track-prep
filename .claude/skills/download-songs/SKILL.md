@@ -20,8 +20,8 @@ Run the `youtube_download` module with the project's unified venv. The `-o` flag
 takes the output folder; URLs are positional:
 
 ```powershell
-& "C:\My_Files\my_programs\intrumental-lyric-separator\.venv\Scripts\python.exe" `
-  "C:\My_Files\my_programs\intrumental-lyric-separator\youtube_download\cli.py" `
+& "M:\my_files\my_programs\track-prep\.venv\Scripts\python.exe" `
+  "M:\my_files\my_programs\track-prep\youtube_download\cli.py" `
   -o "<output folder>" "<url1>" "<url2>"
 ```
 
